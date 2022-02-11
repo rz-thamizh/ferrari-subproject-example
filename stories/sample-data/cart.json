@@ -1,0 +1,103 @@
+{
+  "data": {
+    "cart": {
+      "id": "SzzGqKHDQ0z8IZO2EMMDn23KfhhCb4PQ",
+      "total_quantity": 3,
+      "email": "anto+g@roanuz.com",
+      "applied_coupons": null,
+      "prices": {
+        "discounts": [
+          {
+            "amount": { "value": 101997, "currency": "ISK" },
+            "label": "Discount"
+          }
+        ],
+        "applied_taxes": [],
+        "grand_total": { "value": 407992.99, "currency": "ISK" }
+      },
+      "available_payment_methods": [
+        { "code": "netgiro", "title": "Netgiro payment gateway" },
+        { "code": "borgun_gateway", "title": "Borgun Payment" },
+        { "code": "checkmo", "title": "Check / Money order" }
+      ],
+      "selected_payment_method": {
+        "code": "",
+        "title": "",
+        "purchase_order_number": null
+      },
+      "shipping_addresses": [
+        {
+          "rz_ssn": 1234567890,
+          "rz_uid": null,
+          "firstname": "John",
+          "lastname": "Doe",
+          "street": ["3320 N Crescent Dr", "Beverly Hills"],
+          "city": "Los Angeles",
+          "postcode": "102",
+          "company": "Company Name",
+          "pickup_location_code": null,
+          "telephone": "123-456-0000",
+          "available_shipping_methods": [
+            {
+              "amount": { "value": 15, "currency": "ISK" },
+              "available": true,
+              "method_code": "flatrate",
+              "method_title": "Fixed",
+              "carrier_code": "flatrate",
+              "carrier_title": "Flat Rate"
+            },
+            {
+              "amount": { "value": 4.99, "currency": "ISK" },
+              "available": true,
+              "method_code": "postbox",
+              "method_title": "Sækja í póstbox",
+              "carrier_code": "roanuz",
+              "carrier_title": "Roanuz Shipping Handle"
+            },
+            {
+              "amount": { "value": 4.99, "currency": "ISK" },
+              "available": true,
+              "method_code": "postur",
+              "method_title": "Sækja á pósthús",
+              "carrier_code": "roanuz",
+              "carrier_title": "Roanuz Shipping Handle"
+            }
+          ],
+          "selected_shipping_method": {
+            "amount": { "value": 4.99, "currency": "ISK" },
+            "carrier_code": "roanuz",
+            "carrier_title": "Roanuz Shipping Handle",
+            "method_code": "postbox",
+            "method_title": "Sækja í póstbox"
+          }
+        }
+      ],
+      "items": [
+        {
+          "uid": "NTc=",
+          "quantity": 3,
+          "prices": {
+            "discounts": [
+              {
+                "amount": { "currency": "ISK", "value": 101997 },
+                "label": "Discount"
+              }
+            ],
+            "total_item_discount": { "currency": "ISK", "value": 101997 },
+            "row_total_including_tax": { "currency": "ISK", "value": 509985 }
+          },
+          "product": {
+            "url_key": "aoc-q27g2u-240hz-qhd-leikjaskjar-me-hdr400",
+            "url_suffix": ".html",
+            "sku": "APL-Z124",
+            "name": "AOC Q27G2U 240Hz QHD leikjaskjár með HDR400",
+            "thumbnail": {
+              "disabled": null,
+              "url": "https://tl-dev-backend.roanuz.com/media/catalog/product/cache/11de46dd81d190981d74c0c285e0d687/s/a/sam-np750xda_2_494_350_2.jpeg"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

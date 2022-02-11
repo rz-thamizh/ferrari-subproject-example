@@ -1,0 +1,298 @@
+{
+    "data": {
+      "products": {
+        "items": [
+          {
+            "weight": null,
+            "options": null,
+            "__typename": "SimpleProduct",
+            "canonical_url": null,
+            "categories": [
+              {
+                "name": "Skjáir og Skjávarpar",
+                "uid": "Njc=",
+                "__typename": "CategoryTree",
+                "available_sort_by": [],
+                "breadcrumbs": null,
+                "canonical_url": null,
+                "description": null,
+                "id": 67,
+                "url_key": null,
+                "url_path": null,
+                "url_suffix": ".html"
+              },
+              {
+                "name": "Tölvuskjáir",
+                "uid": "Njg=",
+                "__typename": "CategoryTree",
+                "available_sort_by": [],
+                "breadcrumbs": [
+                  {
+                    "category_level": 2,
+                    "category_name": "Skjáir og Skjávarpar",
+                    "category_uid": "Njc=",
+                    "category_url_key": "skjair-og-skjavarpar",
+                    "category_url_path": "skjair-og-skjavarpar",
+                    "__typename": "Breadcrumb"
+                  }
+                ],
+                "canonical_url": null,
+                "description": null,
+                "id": 68,
+                "url_key": null,
+                "url_path": null,
+                "url_suffix": ".html"
+              }
+            ],
+            "image": {
+              "disabled": null,
+              "label": "AOC Q27G2U 240Hz QHD leikjaskjár með HDR400",
+              "position": null,
+              "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/a/o/aoc-ag273qz_1_494_350_2.jpg",
+              "__typename": "ProductImage"
+            },
+            "rz_manufacturer": 275,
+            "name": "AOC Q27G2U 240Hz QHD leikjaskjár með HDR400",
+            "new": 1,
+            "price_range": {
+              "maximum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 169995,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 169995,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "minimum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 169995,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 169995,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "__typename": "PriceRange"
+            },
+            "price_tiers": [],
+            "sku": "APL-Z124",
+            "special_price": null,
+            "special_to_date": null,
+            "stock_status": "IN_STOCK",
+            "sale": null,
+            "uid": "MzIxMw==",
+            "id": 3213,
+            "url_key": "aoc-q27g2u-240hz-qhd-leikjaskjar-me-hdr400",
+            "url_suffix": ".html",
+            "video_file": null,
+            "rz_energy_label": "a++",
+            "rz_reimposed": null,
+            "rz_stock_shop_2": 0,
+            "rz_stock_shop_3": 0,
+            "rz_stock_shop_4_v2": 1,
+            "rz_stock_shop_5": 1,
+            "rz_stock_shop_6": 1,
+            "rz_assembly_time": "3 dagar",
+            "rz_cross_sell_as_option": 1,
+            "rz_display_shops": "Reykjavik",
+            "rz_monitor_hz": "240Hz",
+            "rz_monitor_resolution": "2560 x 1440",
+            "rz_monitor_size": "27\"",
+            "rz_return_days": "14 daga",
+            "category_gear": null,
+            "climate": null,
+            "collar": null,
+            "color": null,
+            "country_of_manufacture": null,
+            "description": {
+              "html": "<p>AOC Gaming AGON 3 línu leikjaskjár með 240Hz endurnýjunartíðni. TN filmu tækni sem nær allt að 0.5ms GtG svartíma sem er helmingi minna en flestir leikjaskjáir. Með QHD upplausn (2560x1440) er skjárinn skýrari en hefðbundir 240Hz leikjaskjáir.</p>\r\n<p>DisplayHDR400 gerir notenda kleyft að spila leiki í HDR í hámarks birtu stigi sem skjárinn styður. Skjárinn er búin flestum eiginleikum líkt og Low Blue Light, Flickerfree og FreeSync 2 sem eru eiginleikar hannaðir til þess að bæði minnka streytu á</p>\r\n<p>notenda og geri upplifun við leikjaspilun ánægulegri. VESA 75 sem gerir skjáinn samhæfan flestum borð og vegg festingum.</p>",
+              "__typename": "ComplexTextValue"
+            },
+            "eco_collection": null,
+            "erin_recommends": null,
+            "fashion_color": null,
+            "fashion_material": null,
+            "fashion_size": null,
+            "fashion_style": null,
+            "features_bags": null,
+            "format": null,
+            "gender": null,
+            "gift_message_available": "2",
+            "has_video": null,
+            "material": null,
+            "media_gallery": [
+              {
+                "disabled": false,
+                "label": null,
+                "position": 1,
+                "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/a/o/aoc-ag273qz_1_494_350_2.jpg",
+                "__typename": "ProductImage"
+              },
+              {
+                "disabled": false,
+                "label": null,
+                "position": 2,
+                "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/a/o/aoc-ag273qz_6_494_350_2.jpg",
+                "__typename": "ProductImage"
+              },
+              {
+                "disabled": false,
+                "label": null,
+                "position": 3,
+                "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/a/o/aoc-ag273qz_4_494_350_2.jpg",
+                "__typename": "ProductImage"
+              },
+              {
+                "disabled": false,
+                "label": null,
+                "position": 4,
+                "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/a/o/aoc-ag273qz_3_494_350_2.jpg",
+                "__typename": "ProductImage"
+              },
+              {
+                "disabled": false,
+                "label": null,
+                "position": 5,
+                "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/a/o/aoc-ag273qz_2_494_350_2.jpg",
+                "__typename": "ProductImage"
+              }
+            ],
+            "meta_description": "AOC Q27G2U 240Hz QHD leikjaskjár með HDR400 AOC Gaming AGON 3 línu leikjaskjár með 240Hz endurnýjunartíðni. TN filmu tækni sem nær allt að 0.5ms GtG svartíma sem er helmingi minna en flestir leikjaskjáir. Með QHD upplausn (2560x1440) er skjárinn skýrari e",
+            "meta_keyword": "AOC Q27G2U 240Hz QHD leikjaskjár með HDR400",
+            "meta_title": "AOC Q27G2U 240Hz QHD leikjaskjár með HDR400",
+            "only_x_left_in_stock": null,
+            "options_container": "container2",
+            "pattern": null,
+            "performance_fabric": null,
+            "product_links": [
+              {
+                "link_type": "crosssell",
+                "linked_product_sku": "insurance-a-2yr",
+                "linked_product_type": "virtual",
+                "position": 1,
+                "sku": "APL-Z124",
+                "__typename": "ProductLinks"
+              },
+              {
+                "link_type": "crosssell",
+                "linked_product_sku": "insurance-a-3yr",
+                "linked_product_type": "virtual",
+                "position": 2,
+                "sku": "APL-Z124",
+                "__typename": "ProductLinks"
+              }
+            ],
+            "rating_summary": 0,
+            "review_count": 0,
+            "reviews": {
+              "items": [],
+              "__typename": "ProductReviews"
+            },
+            "short_description": {
+              "html": "<ul>\r\n<li>1440p VA screen</li>\r\n<li>240 Hz frequency, 1ms response time</li>\r\n<li>AMD FreeSync, NVIDIA G-Sync Compatible</li>\r\n<li>2x HDMI, DisplayPort, 4x USB</li>\r\n<li>3000: 1 contrast</li>\r\n</ul>",
+              "__typename": "ComplexTextValue"
+            },
+            "size": null,
+            "sleeve": null,
+            "small_image": {
+              "disabled": null,
+              "label": "AOC Q27G2U 240Hz QHD leikjaskjár með HDR400",
+              "position": null,
+              "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/a/o/aoc-ag273qz_1_494_350_2.jpg",
+              "__typename": "ProductImage"
+            },
+            "strap_bags": null,
+            "style_bags": null,
+            "style_bottom": null,
+            "style_general": null,
+            "swatch_image": "/a/o/aoc-ag273qz_1_494_350_2.jpg",
+            "thumbnail": {
+              "disabled": null,
+              "label": "AOC Q27G2U 240Hz QHD leikjaskjár með HDR400",
+              "position": null,
+              "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/a/o/aoc-ag273qz_1_494_350_2.jpg",
+              "__typename": "ProductImage"
+            },
+            "upsell_products": [],
+            "crosssell_products": [
+              {
+                "uid": "MzIxNA==",
+                "url_key": "2-ar-fartolvutrygging",
+                "name": "2 ár - Fartölvutrygging",
+                "new": null,
+                "url_suffix": ".html",
+                "canonical_url": null,
+                "image": {
+                  "disabled": null,
+                  "url": "http://local-api.ht.is/static/version1621585563/frontend/Roanuz/headless/en_US/Magento_Catalog/images/product/placeholder/image.jpg",
+                  "__typename": "ProductImage"
+                },
+                "price_range": {
+                  "minimum_price": {
+                    "final_price": {
+                      "currency": "ISK",
+                      "value": 32999,
+                      "__typename": "Money"
+                    },
+                    "__typename": "ProductPrice"
+                  },
+                  "__typename": "PriceRange"
+                },
+                "__typename": "VirtualProduct"
+              },
+              {
+                "uid": "MzIxNQ==",
+                "url_key": "2-ar-fartolvutrygging-1",
+                "name": "3 ár - Fartölvutrygging",
+                "new": null,
+                "url_suffix": ".html",
+                "canonical_url": null,
+                "image": {
+                  "disabled": null,
+                  "url": "http://local-api.ht.is/static/version1621585563/frontend/Roanuz/headless/en_US/Magento_Catalog/images/product/placeholder/image.jpg",
+                  "__typename": "ProductImage"
+                },
+                "price_range": {
+                  "minimum_price": {
+                    "final_price": {
+                      "currency": "ISK",
+                      "value": 37299,
+                      "__typename": "Money"
+                    },
+                    "__typename": "ProductPrice"
+                  },
+                  "__typename": "PriceRange"
+                },
+                "__typename": "VirtualProduct"
+              }
+            ],
+            "related_products": []
+          }
+        ],
+        "__typename": "Products"
+      }
+    },
+    "loading": false,
+    "networkStatus": 7
+  }

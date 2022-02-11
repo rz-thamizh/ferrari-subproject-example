@@ -1,0 +1,49 @@
+@media print {
+  .hide-print-navbar {
+    filter: none !important;
+  }
+
+  .hide-mobile {
+    display: none !important;
+  }
+
+  .sticky-bar-container {
+    padding-bottom: asRem(20) !important;
+    svg {
+      path {
+        stroke: var(--color-text) !important;
+        fill: var(--color-text);
+      }
+    }
+  }
+
+  .ht-sticky-bar, .kg-sticky-bar {
+    img {
+      filter: invert(100%);
+    }
+  }
+
+  .page-breadcrumb,
+  .mobile-search-col,
+  .action-button-list,
+  .rz-page-bottom-content,
+  .rz-page-bottom-links {
+    display: none !important;
+  }
+
+  .rz-page-bottom-content {
+    svg {
+      filter: invert(100%);
+    }
+
+    .rz-bottom-content-service-promise {
+      .item {
+        margin-bottom: asRem(16);
+      }
+    }
+  }
+
+  .hide-on-print {
+    display: none;
+  }
+}

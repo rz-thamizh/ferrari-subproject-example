@@ -1,0 +1,25 @@
+
+@use "sass:math";
+
+/****
+*** IMPORTANT
+*** Please repeat all the content of this file in roanuz/lib/css
+****/
+
+$base-font-size: 16;
+
+@function asRem($target, $context: $base-font-size) {
+  @return math.div($target, $context) * 1rem;
+}
+
+@function asEm($target, $context: $base-font-size) {
+  @return math.div($target, $context) * 1em;
+}
+
+// https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/
+// Media Query Break Points
+$breakpoint-xs: asEm(320);
+$breakpoint-sm: asEm(768);
+$breakpoint-md: asEm(992);
+$breakpoint-lg: asEm(1194);
+$breakpoint-xlg: asEm(1399);

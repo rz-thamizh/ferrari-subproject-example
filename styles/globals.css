@@ -1,0 +1,154 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* For debugging */
+body {
+  background-color: #f2e3e3;
+}
+.debug-app {
+  width: 1240px;
+  max-width: 1240px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+img {
+  width: 200px;
+}
+
+.debug-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.debug-product-card-list {
+}
+
+.debug-product-card {
+  flex: 1;
+  background: #f9ffeb;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 5px;
+}
+
+.debug-product-card img {
+  width: 180px;
+}
+
+.debug-breadcrumb-links {
+  border-bottom: 2px solid #060606;
+  margin-bottom: 30px;
+  padding: 0 5px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+li a {
+  color: #ff3a96;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.debug-master-nav {
+  display: flex;
+}
+
+.debug-master-nav ul{
+  display: block;
+  border-top: 1px solid;
+}
+
+
+.debug-master-nav li{
+  display: block;
+  padding: 0;
+  padding-right: 2px;  
+}
+
+.debug-master-nav a{
+  font-size: 10px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.debug-fullwidth {
+  width: 100%;
+}
+
+.blocks-promo a{
+  display: block;
+  position: relative;
+}
+.blocks-promo a img{
+  width: 100%;
+}
+.blocks-promo a .content{
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width: 40%;
+  background-color: rgba(255,255,255,0.9);
+  padding: 20px;
+}
+
+.debug-login-state {
+  text-align: right;
+}
+
+li.active {
+  border: 1px solid #333333;
+}
+
+.debug-cart-inline {
+  text-align: right;
+}
+
+.debug-cart-inline li{
+  display: block;
+}
+
+.debug-cart-inline img{
+  width: 60px;
+}
+
+
+.debug-cart-inline .popupView{
+  display: none;
+}
+
+
+.debug-error-view {
+  margin: 10px;
+  padding: 10px;
+  background: red;
+  color: #fff;
+}

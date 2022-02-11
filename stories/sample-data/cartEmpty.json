@@ -1,0 +1,70 @@
+{
+  "data": {
+    "cart": {
+      "id": "yMiJ6OpIYPuyHZtoUOoxyUbSlB4Uh1fX",
+      "total_quantity": 1,
+      "email": "anto+g@roanuz.com",
+      "applied_coupons": null,
+      "prices": {
+        "discounts": [
+          {
+            "amount": { "value": 33999, "currency": "ISK" },
+            "label": "Discount"
+          }
+        ],
+        "applied_taxes": [],
+        "grand_total": { "value": 136000.99, "currency": "ISK" }
+      },
+      "shipping_addresses": [
+        {
+          "available_shipping_methods": [
+            {
+              "amount": { "value": 5, "currency": "ISK" },
+              "available": true,
+              "method_code": "flatrate",
+              "method_title": "Fixed"
+            },
+            {
+              "amount": { "value": 4.99, "currency": "ISK" },
+              "available": true,
+              "method_code": "postbox",
+              "method_title": "Sækja í póstbox"
+            },
+            {
+              "amount": { "value": 4.99, "currency": "ISK" },
+              "available": true,
+              "method_code": "postur",
+              "method_title": "Sækja á pósthús"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "uid": "NTU=",
+          "quantity": 1,
+          "prices": {
+            "discounts": [
+              {
+                "amount": { "currency": "ISK", "value": 33999 },
+                "label": "Discount"
+              }
+            ],
+            "total_item_discount": { "currency": "ISK", "value": 33999 },
+            "row_total_including_tax": { "currency": "ISK", "value": 169995 }
+          },
+          "product": {
+            "url_key": "aoc-q27g2u-240hz-qhd-leikjaskjar-me-hdr400",
+            "url_suffix": ".html",
+            "sku": "APL-Z124",
+            "name": "AOC Q27G2U 240Hz QHD leikjaskjár með HDR400",
+            "thumbnail": {
+              "disabled": null,
+              "url": "https://tl-dev-backend.roanuz.com/media/catalog/product/cache/11de46dd81d190981d74c0c285e0d687/s/a/sam-np750xda_2_494_350_2.jpeg"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

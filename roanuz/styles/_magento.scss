@@ -1,0 +1,617 @@
+.rz-m-row {
+  display: flex;
+  flex-flow: column;
+  .rz-m-banner {
+    .rz-m-text {
+      left: 15%;
+    }
+  }
+}
+.rz-m-banner {
+  position: relative;
+  margin: asRem(15) 0;
+  .rz-m-text {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    width: 50%;
+
+    font-family: var(--tg-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: asRem(24);
+    line-height: asRem(32);
+    color: #FFFFFF;
+
+    p {
+      strong {
+        color: #FA80FF;
+      }
+    }
+  }
+  .rz-m-image {
+    overflow: hidden;
+    height: asRem(300);
+    img {
+      object-fit: cover;
+    }
+  }
+}
+.rz-m-products {
+  margin-bottom: asRem(30);
+}
+
+a.rz-m-yellow {
+  display: inline-block;
+  font-family: var(--tg-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: asRem(14);
+  line-height: asRem(19);
+  color: #111111;
+  background: #FFED00;
+  border-radius: asRem(30);
+  padding: asRem(11) asRem(24);
+  margin-top: asRem(15);
+}
+
+
+.debug-product-card {
+  img {
+    width: 120px;
+  }
+}
+
+@mixin decorated-border {
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    top: asRem(19);
+    right: -1px;
+    width: asRem(25);
+    height: asRem(31);
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMzEiIHZpZXdCb3g9IjAgMCAyNSAzMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMTAuNUgxMy41TDIxIDMiIHN0cm9rZT0iIzExMTExMSIvPgo8Y2lyY2xlIGN4PSIyMSIgY3k9IjMiIHI9IjIuNSIgZmlsbD0id2hpdGUiIHN0cm9rZT0iIzExMTExMSIvPgo8cGF0aCBkPSJNMSAyMS41SDE0LjVMMjIgMjkiIHN0cm9rZT0iIzExMTExMSIvPgo8Y2lyY2xlIGN4PSIyMSIgY3k9IjI4IiByPSIyLjUiIGZpbGw9IndoaXRlIiBzdHJva2U9IiMxMTExMTEiLz4KPGNpcmNsZSBjeD0iMjEuNSIgY3k9IjE1LjUiIHI9IjMiIGZpbGw9IndoaXRlIiBzdHJva2U9IiMxMTExMTEiLz4KPC9zdmc+Cg==");
+    background-size: contain;
+    background-color: transparent;
+  }
+}
+
+
+h3 {
+  font-family: var(--tg-bold-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: asRem(18);
+  line-height: asRem(24);
+  padding-bottom: asRem(10); 
+  margin-top: asRem(60); 
+  margin-bottom: asRem(40); 
+  border-bottom: 1px solid var(--color-text);
+  word-wrap: break-word;
+
+  &.with-decorated-border {
+    @include decorated-border;
+  }
+
+  a {
+    color: initial;
+    &:hover {
+      text-decoration: none;
+    }
+  } 
+}
+
+.block-static-block {
+  h3 {
+    @include decorated-border;
+  }
+}
+
+
+.rz-magento-html {
+  h3 {
+    @include decorated-border;
+  }
+  .cms-content {
+    display: flex;
+    padding-top: var(--space-page-side-padding);
+
+    flex-direction: column;
+    padding-top: asRem(40);
+
+    &.container-700 {
+      max-width: asRem(700);
+      margin: 0 auto;
+    }
+
+    &.privacy-policy {
+      flex-direction: column-reverse;
+      @media screen and (min-width: $breakpoint-sm) {
+        flex-direction: row-reverse;
+        >div {
+          &:last-child {
+            min-width: asRem(240);
+            padding-right: asRem(24);
+          }
+        }
+      }
+    }
+
+    h1 {
+      font-family: var(--tg-bold-family);
+      font-weight: bold;
+      font-size: asRem(30);
+      line-height: asRem(40);
+      padding: asRem(20) 0;
+      border-bottom: 1px solid var(--color-border-2);
+      margin-bottom: asRem(30);
+    }
+
+    h2 {
+      font-family: var(--tg-bold-family);
+      font-weight: bold;
+      font-size: asRem(24);
+      line-height: asRem(32);
+      padding: asRem(10) 0;
+    }
+
+    p {
+      font-family: var(--tg-family);
+      font-size: asRem(16);
+      line-height: asRem(26);
+      letter-spacing: asRem(0.2);
+      padding-bottom: asRem(20);
+
+      strong, b {
+        font-weight: 500;
+      }
+    }
+    ul {
+      list-style: disc inside none;
+      li {
+        padding-bottom: asRem(10);
+        line-height: asRem(20);
+      }
+    }
+    table {
+      margin-bottom: asRem(20);
+
+      th, td {
+        text-align: left;
+        padding: asRem(10);
+        padding-left: 0;
+        border-bottom: 1px solid var(--color-disabled-2);
+      }
+
+      thead {
+        th {
+          font-weight: 500;
+          text-align: left;
+        }
+      }
+    }
+    
+    img {
+      max-width: 100%;
+      @media screen and (min-width: $breakpoint-lg) {
+        max-width: initial;
+      }
+    }
+
+    h3 {
+      font-family: var(--tg-bold-family);
+      font-weight: bold;
+      font-size: asRem(18);
+      line-height: asRem(28);
+      border: 0;
+      margin: 0;
+      &:after {
+        display: none;
+      }
+    }
+
+    h4 {
+      font-family: var(--tg-bold-family);
+      font-weight: bold;
+      font-size: asRem(16);
+      line-height: asRem(20);
+      padding: asRem(5) 0;
+    }
+
+    .contact-info {
+      padding: asRem(5) 0;
+      p {
+        padding-bottom: asRem(5);
+      }
+    }
+
+    .store-hours {
+      >p {
+        padding-bottom: asRem(5);
+      }
+    }
+
+    .layout-3 {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      @media screen and (min-width: $breakpoint-sm) {
+        flex-direction: initial;
+      }
+      h3 {
+        margin: 10px 0 0;
+      }
+      em {
+        display: block;
+        padding-bottom: asRem(10);
+      }
+      >div {
+        flex-grow: 1;
+        flex-basis: 0;
+      }
+      &.equal-columns {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: initial;
+        >div {
+          margin-bottom: asRem(30);
+          flex-grow: 0;
+          flex-basis: calc(100% / 1);
+          @media screen and (min-width: $breakpoint-sm) {
+            flex-basis: calc(100% / 2);
+          }
+          @media screen and (min-width: $breakpoint-md) {
+            flex-basis: calc(100% / 3);
+          }
+          >div {
+            display: inline-block;
+          }
+        }
+      }
+    }
+
+    .layout-2 {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      >div {
+        margin-bottom: asRem(30);
+      }
+      @media screen and (min-width: $breakpoint-sm) {
+        &:not(.equal-columns) {
+          flex-direction: initial;
+        }
+      }
+      &.equal-columns {
+        @media screen and (min-width: $breakpoint-md) {
+          flex-direction: initial;
+          grid-gap: 40px;
+          >div {
+            flex: 50%;
+          }
+        }
+      }
+    }
+
+    .tiny-imgs {
+      display: flex;
+      padding-top: asRem(20);
+      flex-direction: column;
+      @media screen and (min-width: $breakpoint-sm) {
+        flex-direction: initial;
+      }
+      img {
+        max-width: asRem(200);
+      }
+    }
+
+    ol {
+      list-style: decimal inside none;
+      li {
+        padding-bottom: asRem(10);
+      }
+    }
+  }
+
+  // Rafland 'laekningataeki' page style start
+  .rl-cms-page {
+    >div {
+      border: solid asRem(1) var(--color-border-2);
+      border-radius: asRem(4);
+      margin-bottom: asRem(16);
+
+      img {
+        max-width: 100%;
+      }
+
+      >div {
+        line-height: asRem(22);
+
+        >.row-body, >.row-footer {
+          padding: asRem(16);
+        }
+
+        >.row-body {
+          border-bottom: asRem(1) solid var(--color-border-2);
+          h2 {
+            color: var(--color-wishlist-border);
+          }
+          .bolded-text {
+            font-weight: 700;
+          }
+
+          .layout-4 {
+            @media screen and (min-width: $breakpoint-sm) {
+              grid-gap: asRem(15);
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+            }
+            @media screen and (min-width: $breakpoint-md) {
+              grid-template-columns: repeat(4, 1fr);
+            }
+
+            img {
+              max-height: asRem(180);
+            }
+      
+            >div {
+              border: asRem(1) solid var(--color-border-2);
+              border-radius: asRem(4);
+              text-align: center;
+              margin-bottom: asRem(10);
+              @media screen and (min-width: $breakpoint-sm) {
+                margin-bottom: 0;        
+              }
+      
+              >div {
+                padding: asRem(4);          
+              }
+            }
+          }      
+        }
+        >.row-footer {
+          background-color: #f5f5f5;
+          >div {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .links {
+              border-top: asRem(1) solid var(--color-border-2);
+              a,img {
+                display: block;
+                padding: asRem(8);
+              }
+              a {
+                border-top: asRem(1) solid var(--color-border-2);
+                padding-bottom: asRem(32);
+              }
+              img {
+                margin: auto;
+                max-height: asRem(47);
+              }
+            }
+          }
+        }
+      }
+
+      &.row-1 {
+        text-align: center;
+      }
+    }
+  }
+  // Rafland 'laekningataeki' page style end
+
+  // Rafland 'kitchenaid-baeklingur' page iframe style start
+  .iframe-wrapper {
+    width: 100%;
+    @media screen and (min-width: $breakpoint-sm) {
+      height: asRem(800);    
+    }
+    
+    iframe {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  // Rafland 'kitchenaid-baeklingur' page iframe style end
+
+
+  .block-collapsible-nav {
+    .block-collapsible-nav-title {
+      display: none;
+    }
+
+    ul {
+      list-style: none;
+      li {
+        padding-bottom: asRem(10);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: $breakpoint-sm) {
+  .hide-desktop {
+    display: none !important;
+  }
+  
+  .rz-m-row {
+    flex-flow: row;
+  }
+  .rz-m-banner {
+    & + .rz-m-banner {
+      padding-left: asRem(20);
+    }
+    .rz-m-image {
+      height: auto;
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .rz-m-products {
+    margin-bottom: asRem(60);
+  }
+}
+
+@media screen and (min-width: $breakpoint-md) {
+  .rz-m-banner {
+    margin: asRem(50) 0;
+    & + .rz-m-banner {
+      padding-left: asRem(40);
+    }
+    .rz-m-text {
+      top: 25%;
+      font-size: asRem(50);
+      line-height: asRem(58);
+    }
+  }
+}
+
+.show-on-desktop {
+  display: none;
+  @media screen and (min-width: $breakpoint-lg) {
+    display: inherit;
+  }
+}
+
+.show-mobile {
+  display: inherit;
+  @media screen and (min-width: $breakpoint-sm) {
+    display: none;
+  }
+}
+
+// Styles for ATT Home page category band
+.att-category-band {
+  @media screen and (min-width: $breakpoint-lg) {
+    .sweetslider-container-items {
+      >div {
+        margin-right: asRem(10) !important;
+      }
+    }
+  }
+  a {
+    border-top-left-radius: asRem(15);
+    border-top-right-radius: asRem(15);
+    border-bottom-left-radius: asRem(300);
+    border-bottom-right-radius: asRem(300);
+    background-color: var(--color-button);
+    order: 1;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: asRem(125);
+    text-decoration: none;
+    @media screen and (min-width: $breakpoint-sm) {
+      max-width: asRem(200);
+    }
+    p {
+      margin: 0 !important;
+    }
+    >div {
+      overflow: hidden;
+      padding: asRem(30) asRem(10) asRem(16);
+      min-height: asRem(90);
+      display: flex;
+      align-items: center;
+    }
+  }
+  picture {
+    border-radius: 300px;
+    background: #fff;
+    border: 2px solid var(--color-button);
+    box-sizing: border-box;
+    border-radius: 300px;
+    order: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: asRem(125);
+    height: asRem(125);
+    img {
+      max-width: asRem(80) !important;
+      max-height: asRem(100);
+    }
+    @media screen and (min-width: $breakpoint-sm) {
+      width: asRem(200);
+      height: asRem(200);
+      img {
+        max-width: asRem(130) !important;
+        max-height: asRem(150);
+      }
+    }
+  }
+  p {
+    color: #fff;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+// Styles for BY Home page category band
+.by-category-band {
+  a {
+    border-radius: asRem(4);
+    border: solid var(--color-button);
+    border-top-width: asRem(18);
+    border-bottom-width: asRem(18);
+    border-left-width: asRem(17);
+    border-right-width: asRem(17);
+    flex-direction: column-reverse !important;
+    justify-content: space-between;
+
+    width: asRem(262);
+    height: asRem(270);
+
+    @media screen and (min-width: $breakpoint-md) {
+      width: asRem(302);
+      height: asRem(320);
+    }
+
+    >div {
+      max-height: asRem(100);
+      margin: asRem(12) asRem(12) 0;
+    }
+
+    picture {
+      img {
+        max-width: asRem(177) !important;
+        max-height: asRem(147);
+      }
+      @media screen and (min-width: $breakpoint-md) {
+        img {
+          max-width: asRem(227) !important;
+          max-height: asRem(197);
+        }
+      }
+    }
+  }
+
+  p {
+    font-size: asRem(28);
+    line-height: asRem(40);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.clear-cart-btn {
+  margin: 0 auto;
+  display: block !important;
+}

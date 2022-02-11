@@ -1,0 +1,1805 @@
+{
+    "data": {
+      "products": {
+        "items": [
+          {
+            "__typename": "SimpleProduct",
+            "canonical_url": null,
+            "categories": [
+              {
+                "name": "Skjáir og Skjávarpar",
+                "uid": "Njc=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Tölvuskjáir",
+                "uid": "Njg=",
+                "__typename": "CategoryTree"
+              }
+            ],
+            "image": {
+              "disabled": null,
+              "label": "AOC Q27G2U 240Hz QHD leikjaskjár með HDR400",
+              "position": null,
+              "url": "https://tl-dev-backend.roanuz.com/media/catalog/product/cache/11de46dd81d190981d74c0c285e0d687/a/o/aoc-ag273qz_1_494_350_2.jpg",
+              "__typename": "ProductImage"
+            },
+            "rz_manufacturer": 275,
+            "name": "AOC Q27G2U 240Hz QHD leikjaskjár með HDR400",
+            "new": 1,
+            "price_range": {
+              "maximum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 169995,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 169995,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "minimum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 169995,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 169995,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "__typename": "PriceRange"
+            },
+            "price_tiers": [],
+            "sku": "APL-Z124",
+            "special_price": null,
+            "special_to_date": null,
+            "stock_status": "IN_STOCK",
+            "sale": null,
+            "uid": "MzIxMw==",
+            "id": 3213,
+            "url_key": "aoc-q27g2u-240hz-qhd-leikjaskjar-me-hdr400",
+            "url_suffix": ".html",
+            "video_file": null,
+            "rz_energy_label": "a++",
+            "rz_reimposed": null,
+            "rz_stock_shop_2": 0,
+            "rz_stock_shop_3": 0,
+            "rz_stock_shop_4_v2": 1,
+            "rz_stock_shop_5": 1,
+            "rz_stock_shop_6": 1,
+            "weight": null,
+            "options": null
+          },
+          {
+            "__typename": "ConfigurableProduct",
+            "canonical_url": null,
+            "categories": [
+              {
+                "name": "Erin Recommends",
+                "uid": "NDQ=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Bottoms",
+                "uid": "NjA=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Shorts",
+                "uid": "NjI=",
+                "__typename": "CategoryTree"
+              }
+            ],
+            "image": {
+              "disabled": null,
+              "label": "Erika Running Short",
+              "position": null,
+              "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/w/s/wsh12-green_main_1.jpg",
+              "__typename": "ProductImage"
+            },
+            "rz_manufacturer": null,
+            "name": "Erika Running Short",
+            "new": 0,
+            "price_range": {
+              "maximum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 45,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 45,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "minimum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 45,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 45,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "__typename": "PriceRange"
+            },
+            "price_tiers": [],
+            "sku": "WSH12",
+            "special_price": null,
+            "special_to_date": null,
+            "stock_status": "IN_STOCK",
+            "sale": 0,
+            "uid": "MzIxMg==",
+            "id": 3212,
+            "url_key": "erika-running-short",
+            "url_suffix": ".html",
+            "video_file": null,
+            "rz_energy_label": null,
+            "rz_reimposed": null,
+            "rz_stock_shop_2": null,
+            "rz_stock_shop_3": null,
+            "rz_stock_shop_4_v2": null,
+            "rz_stock_shop_5": null,
+            "rz_stock_shop_6": null,
+            "weight": null,
+            "options": null,
+            "configurable_options": [
+              {
+                "attribute_code": "color",
+                "attribute_uid": "OTM=",
+                "id": 432,
+                "label": "Color",
+                "position": 1,
+                "uid": "Y29uZmlndXJhYmxlLzMyMTIvOTM=",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "Green",
+                    "label": "Green",
+                    "store_label": "Green",
+                    "swatch_data": {
+                      "value": "#53a828",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzExOA==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "Purple",
+                    "label": "Purple",
+                    "store_label": "Purple",
+                    "swatch_data": {
+                      "value": "#ef3dff",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzEyMg==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "Red",
+                    "label": "Red",
+                    "store_label": "Red",
+                    "swatch_data": {
+                      "value": "#ff0000",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzEyMw==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              },
+              {
+                "attribute_code": "size",
+                "attribute_uid": "MTUy",
+                "id": 431,
+                "label": "Size",
+                "position": 0,
+                "uid": "Y29uZmlndXJhYmxlLzMyMTIvMTUy",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "28",
+                    "label": "28",
+                    "store_label": "28",
+                    "swatch_data": {
+                      "value": "28",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzQ=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "29",
+                    "label": "29",
+                    "store_label": "29",
+                    "swatch_data": {
+                      "value": "29",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzU=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "30",
+                    "label": "30",
+                    "store_label": "30",
+                    "swatch_data": {
+                      "value": "30",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzY=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "31",
+                    "label": "31",
+                    "store_label": "31",
+                    "swatch_data": {
+                      "value": "31",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzc=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "32",
+                    "label": "32",
+                    "store_label": "32",
+                    "swatch_data": {
+                      "value": "32",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzg=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              }
+            ]
+          },
+          {
+            "__typename": "ConfigurableProduct",
+            "canonical_url": null,
+            "categories": [
+              {
+                "name": "Erin Recommends",
+                "uid": "NDQ=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Bottoms",
+                "uid": "NjA=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Shorts",
+                "uid": "NjI=",
+                "__typename": "CategoryTree"
+              }
+            ],
+            "image": {
+              "disabled": null,
+              "label": "Ina Compression Short",
+              "position": null,
+              "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/w/s/wsh11-blue_main_1.jpg",
+              "__typename": "ProductImage"
+            },
+            "rz_manufacturer": null,
+            "name": "Ina Compression Short",
+            "new": 0,
+            "price_range": {
+              "maximum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 49,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 49,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "minimum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 49,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 49,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "__typename": "PriceRange"
+            },
+            "price_tiers": [],
+            "sku": "WSH11",
+            "special_price": null,
+            "special_to_date": null,
+            "stock_status": "IN_STOCK",
+            "sale": 0,
+            "uid": "MzE5Ng==",
+            "id": 3196,
+            "url_key": "ina-compression-short",
+            "url_suffix": ".html",
+            "video_file": null,
+            "rz_energy_label": null,
+            "rz_reimposed": null,
+            "rz_stock_shop_2": null,
+            "rz_stock_shop_3": null,
+            "rz_stock_shop_4_v2": null,
+            "rz_stock_shop_5": null,
+            "rz_stock_shop_6": null,
+            "weight": null,
+            "options": null,
+            "configurable_options": [
+              {
+                "attribute_code": "color",
+                "attribute_uid": "OTM=",
+                "id": 430,
+                "label": "Color",
+                "position": 1,
+                "uid": "Y29uZmlndXJhYmxlLzMxOTYvOTM=",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "Blue",
+                    "label": "Blue",
+                    "store_label": "Blue",
+                    "swatch_data": {
+                      "value": "#1857f7",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzExNQ==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "Orange",
+                    "label": "Orange",
+                    "store_label": "Orange",
+                    "swatch_data": {
+                      "value": "#eb6703",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzEyMQ==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "Red",
+                    "label": "Red",
+                    "store_label": "Red",
+                    "swatch_data": {
+                      "value": "#ff0000",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzEyMw==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              },
+              {
+                "attribute_code": "size",
+                "attribute_uid": "MTUy",
+                "id": 429,
+                "label": "Size",
+                "position": 0,
+                "uid": "Y29uZmlndXJhYmxlLzMxOTYvMTUy",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "28",
+                    "label": "28",
+                    "store_label": "28",
+                    "swatch_data": {
+                      "value": "28",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzQ=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "29",
+                    "label": "29",
+                    "store_label": "29",
+                    "swatch_data": {
+                      "value": "29",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzU=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              }
+            ]
+          },
+          {
+            "__typename": "ConfigurableProduct",
+            "canonical_url": null,
+            "categories": [
+              {
+                "name": "Eco Friendly",
+                "uid": "NDY=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Bottoms",
+                "uid": "NjA=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Shorts",
+                "uid": "NjI=",
+                "__typename": "CategoryTree"
+              }
+            ],
+            "image": {
+              "disabled": null,
+              "label": "Ana Running Short",
+              "position": null,
+              "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/w/s/wsh10-black_main_1.jpg",
+              "__typename": "ProductImage"
+            },
+            "rz_manufacturer": null,
+            "name": "Ana Running Short",
+            "new": 0,
+            "price_range": {
+              "maximum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 40,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 40,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "minimum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 40,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 40,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "__typename": "PriceRange"
+            },
+            "price_tiers": [],
+            "sku": "WSH10",
+            "special_price": null,
+            "special_to_date": null,
+            "stock_status": "IN_STOCK",
+            "sale": 0,
+            "uid": "MzE4OQ==",
+            "id": 3189,
+            "url_key": "ana-running-short",
+            "url_suffix": ".html",
+            "video_file": null,
+            "rz_energy_label": null,
+            "rz_reimposed": null,
+            "rz_stock_shop_2": null,
+            "rz_stock_shop_3": null,
+            "rz_stock_shop_4_v2": null,
+            "rz_stock_shop_5": null,
+            "rz_stock_shop_6": null,
+            "weight": null,
+            "options": null,
+            "configurable_options": [
+              {
+                "attribute_code": "color",
+                "attribute_uid": "OTM=",
+                "id": 428,
+                "label": "Color",
+                "position": 1,
+                "uid": "Y29uZmlndXJhYmxlLzMxODkvOTM=",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "Black",
+                    "label": "Black",
+                    "store_label": "Black",
+                    "swatch_data": {
+                      "value": "#000000",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzExNA==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "Orange",
+                    "label": "Orange",
+                    "store_label": "Orange",
+                    "swatch_data": {
+                      "value": "#eb6703",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzEyMQ==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "White",
+                    "label": "White",
+                    "store_label": "White",
+                    "swatch_data": {
+                      "value": "#ffffff",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzEyNA==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              },
+              {
+                "attribute_code": "size",
+                "attribute_uid": "MTUy",
+                "id": 427,
+                "label": "Size",
+                "position": 0,
+                "uid": "Y29uZmlndXJhYmxlLzMxODkvMTUy",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "28",
+                    "label": "28",
+                    "store_label": "28",
+                    "swatch_data": {
+                      "value": "28",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzQ=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "29",
+                    "label": "29",
+                    "store_label": "29",
+                    "swatch_data": {
+                      "value": "29",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzU=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              }
+            ]
+          },
+          {
+            "__typename": "ConfigurableProduct",
+            "canonical_url": null,
+            "categories": [
+              {
+                "name": "Bottoms",
+                "uid": "NjA=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Shorts",
+                "uid": "NjI=",
+                "__typename": "CategoryTree"
+              }
+            ],
+            "image": {
+              "disabled": null,
+              "label": "Mimi All-Purpose Short",
+              "position": null,
+              "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/w/s/wsh09-gray_main_1.jpg",
+              "__typename": "ProductImage"
+            },
+            "rz_manufacturer": null,
+            "name": "Mimi All-Purpose Short",
+            "new": 0,
+            "price_range": {
+              "maximum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 44,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 44,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "minimum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 44,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 44,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "__typename": "PriceRange"
+            },
+            "price_tiers": [],
+            "sku": "WSH09",
+            "special_price": null,
+            "special_to_date": null,
+            "stock_status": "IN_STOCK",
+            "sale": 0,
+            "uid": "MzE4Mg==",
+            "id": 3182,
+            "url_key": "mimi-all-purpose-short",
+            "url_suffix": ".html",
+            "video_file": null,
+            "rz_energy_label": null,
+            "rz_reimposed": null,
+            "rz_stock_shop_2": null,
+            "rz_stock_shop_3": null,
+            "rz_stock_shop_4_v2": null,
+            "rz_stock_shop_5": null,
+            "rz_stock_shop_6": null,
+            "weight": null,
+            "options": null,
+            "configurable_options": [
+              {
+                "attribute_code": "color",
+                "attribute_uid": "OTM=",
+                "id": 426,
+                "label": "Color",
+                "position": 1,
+                "uid": "Y29uZmlndXJhYmxlLzMxODIvOTM=",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "Gray",
+                    "label": "Gray",
+                    "store_label": "Gray",
+                    "swatch_data": {
+                      "value": "#8f8f8f",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzExNw==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "Green",
+                    "label": "Green",
+                    "store_label": "Green",
+                    "swatch_data": {
+                      "value": "#53a828",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzExOA==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "White",
+                    "label": "White",
+                    "store_label": "White",
+                    "swatch_data": {
+                      "value": "#ffffff",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzEyNA==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              },
+              {
+                "attribute_code": "size",
+                "attribute_uid": "MTUy",
+                "id": 425,
+                "label": "Size",
+                "position": 0,
+                "uid": "Y29uZmlndXJhYmxlLzMxODIvMTUy",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "28",
+                    "label": "28",
+                    "store_label": "28",
+                    "swatch_data": {
+                      "value": "28",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzQ=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "29",
+                    "label": "29",
+                    "store_label": "29",
+                    "swatch_data": {
+                      "value": "29",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzU=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              }
+            ]
+          },
+          {
+            "__typename": "ConfigurableProduct",
+            "canonical_url": null,
+            "categories": [
+              {
+                "name": "Performance Fabrics",
+                "uid": "NDU=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Bottoms",
+                "uid": "NjA=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Shorts",
+                "uid": "NjI=",
+                "__typename": "CategoryTree"
+              }
+            ],
+            "image": {
+              "disabled": null,
+              "label": "Sybil Running Short",
+              "position": null,
+              "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/w/s/wsh08-purple_main_1.jpg",
+              "__typename": "ProductImage"
+            },
+            "rz_manufacturer": null,
+            "name": "Sybil Running Short",
+            "new": 0,
+            "price_range": {
+              "maximum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 44,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 44,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "minimum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 44,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 44,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "__typename": "PriceRange"
+            },
+            "price_tiers": [],
+            "sku": "WSH08",
+            "special_price": null,
+            "special_to_date": null,
+            "stock_status": "IN_STOCK",
+            "sale": 0,
+            "uid": "MzE3NQ==",
+            "id": 3175,
+            "url_key": "sybil-running-short",
+            "url_suffix": ".html",
+            "video_file": null,
+            "rz_energy_label": null,
+            "rz_reimposed": null,
+            "rz_stock_shop_2": null,
+            "rz_stock_shop_3": null,
+            "rz_stock_shop_4_v2": null,
+            "rz_stock_shop_5": null,
+            "rz_stock_shop_6": null,
+            "weight": null,
+            "options": null,
+            "configurable_options": [
+              {
+                "attribute_code": "color",
+                "attribute_uid": "OTM=",
+                "id": 424,
+                "label": "Color",
+                "position": 1,
+                "uid": "Y29uZmlndXJhYmxlLzMxNzUvOTM=",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "Purple",
+                    "label": "Purple",
+                    "store_label": "Purple",
+                    "swatch_data": {
+                      "value": "#ef3dff",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzEyMg==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              },
+              {
+                "attribute_code": "size",
+                "attribute_uid": "MTUy",
+                "id": 423,
+                "label": "Size",
+                "position": 0,
+                "uid": "Y29uZmlndXJhYmxlLzMxNzUvMTUy",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "28",
+                    "label": "28",
+                    "store_label": "28",
+                    "swatch_data": {
+                      "value": "28",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzQ=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "29",
+                    "label": "29",
+                    "store_label": "29",
+                    "swatch_data": {
+                      "value": "29",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzU=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "30",
+                    "label": "30",
+                    "store_label": "30",
+                    "swatch_data": {
+                      "value": "30",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzY=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "31",
+                    "label": "31",
+                    "store_label": "31",
+                    "swatch_data": {
+                      "value": "31",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzc=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "32",
+                    "label": "32",
+                    "store_label": "32",
+                    "swatch_data": {
+                      "value": "32",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzg=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              }
+            ]
+          },
+          {
+            "__typename": "ConfigurableProduct",
+            "canonical_url": null,
+            "categories": [
+              {
+                "name": "New Luma Yoga Collection",
+                "uid": "Mjc=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Bottoms",
+                "uid": "NjA=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Shorts",
+                "uid": "NjI=",
+                "__typename": "CategoryTree"
+              }
+            ],
+            "image": {
+              "disabled": null,
+              "label": "Echo Fit Compression Short",
+              "position": null,
+              "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/w/s/wsh07-black_main_1.jpg",
+              "__typename": "ProductImage"
+            },
+            "rz_manufacturer": null,
+            "name": "Echo Fit Compression Short",
+            "new": 1,
+            "price_range": {
+              "maximum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 24,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 24,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "minimum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 24,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 24,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "__typename": "PriceRange"
+            },
+            "price_tiers": [],
+            "sku": "WSH07",
+            "special_price": null,
+            "special_to_date": null,
+            "stock_status": "IN_STOCK",
+            "sale": 0,
+            "uid": "MzE2OQ==",
+            "id": 3169,
+            "url_key": "echo-fit-compression-short",
+            "url_suffix": ".html",
+            "video_file": null,
+            "rz_energy_label": null,
+            "rz_reimposed": null,
+            "rz_stock_shop_2": null,
+            "rz_stock_shop_3": null,
+            "rz_stock_shop_4_v2": null,
+            "rz_stock_shop_5": null,
+            "rz_stock_shop_6": null,
+            "weight": null,
+            "options": null,
+            "configurable_options": [
+              {
+                "attribute_code": "color",
+                "attribute_uid": "OTM=",
+                "id": 422,
+                "label": "Color",
+                "position": 1,
+                "uid": "Y29uZmlndXJhYmxlLzMxNjkvOTM=",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "Black",
+                    "label": "Black",
+                    "store_label": "Black",
+                    "swatch_data": {
+                      "value": "#000000",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzExNA==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "Blue",
+                    "label": "Blue",
+                    "store_label": "Blue",
+                    "swatch_data": {
+                      "value": "#1857f7",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzExNQ==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "Purple",
+                    "label": "Purple",
+                    "store_label": "Purple",
+                    "swatch_data": {
+                      "value": "#ef3dff",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzEyMg==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              },
+              {
+                "attribute_code": "size",
+                "attribute_uid": "MTUy",
+                "id": 421,
+                "label": "Size",
+                "position": 0,
+                "uid": "Y29uZmlndXJhYmxlLzMxNjkvMTUy",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "28",
+                    "label": "28",
+                    "store_label": "28",
+                    "swatch_data": {
+                      "value": "28",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzQ=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "29",
+                    "label": "29",
+                    "store_label": "29",
+                    "swatch_data": {
+                      "value": "29",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzU=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              }
+            ]
+          },
+          {
+            "__typename": "ConfigurableProduct",
+            "canonical_url": null,
+            "categories": [
+              {
+                "name": "Bottoms",
+                "uid": "NjA=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Shorts",
+                "uid": "NjI=",
+                "__typename": "CategoryTree"
+              }
+            ],
+            "image": {
+              "disabled": null,
+              "label": "Angel Light Running Short",
+              "position": null,
+              "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/w/s/wsh06-gray_main_1.jpg",
+              "__typename": "ProductImage"
+            },
+            "rz_manufacturer": null,
+            "name": "Angel Light Running Short",
+            "new": 0,
+            "price_range": {
+              "maximum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 42,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 42,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "minimum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 42,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 42,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "__typename": "PriceRange"
+            },
+            "price_tiers": [],
+            "sku": "WSH06",
+            "special_price": null,
+            "special_to_date": null,
+            "stock_status": "IN_STOCK",
+            "sale": 0,
+            "uid": "MzE2Mg==",
+            "id": 3162,
+            "url_key": "angel-light-running-short",
+            "url_suffix": ".html",
+            "video_file": null,
+            "rz_energy_label": null,
+            "rz_reimposed": null,
+            "rz_stock_shop_2": null,
+            "rz_stock_shop_3": null,
+            "rz_stock_shop_4_v2": null,
+            "rz_stock_shop_5": null,
+            "rz_stock_shop_6": null,
+            "weight": null,
+            "options": null,
+            "configurable_options": [
+              {
+                "attribute_code": "color",
+                "attribute_uid": "OTM=",
+                "id": 420,
+                "label": "Color",
+                "position": 1,
+                "uid": "Y29uZmlndXJhYmxlLzMxNjIvOTM=",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "Gray",
+                    "label": "Gray",
+                    "store_label": "Gray",
+                    "swatch_data": {
+                      "value": "#8f8f8f",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzExNw==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "Orange",
+                    "label": "Orange",
+                    "store_label": "Orange",
+                    "swatch_data": {
+                      "value": "#eb6703",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzEyMQ==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "Purple",
+                    "label": "Purple",
+                    "store_label": "Purple",
+                    "swatch_data": {
+                      "value": "#ef3dff",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzEyMg==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              },
+              {
+                "attribute_code": "size",
+                "attribute_uid": "MTUy",
+                "id": 419,
+                "label": "Size",
+                "position": 0,
+                "uid": "Y29uZmlndXJhYmxlLzMxNjIvMTUy",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "28",
+                    "label": "28",
+                    "store_label": "28",
+                    "swatch_data": {
+                      "value": "28",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzQ=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "29",
+                    "label": "29",
+                    "store_label": "29",
+                    "swatch_data": {
+                      "value": "29",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzU=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              }
+            ]
+          },
+          {
+            "__typename": "ConfigurableProduct",
+            "canonical_url": null,
+            "categories": [
+              {
+                "name": "Women Sale",
+                "uid": "NDA=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Bottoms",
+                "uid": "NjA=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Shorts",
+                "uid": "NjI=",
+                "__typename": "CategoryTree"
+              }
+            ],
+            "image": {
+              "disabled": null,
+              "label": "Bess Yoga Short",
+              "position": null,
+              "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/w/s/wsh05-blue_main_1.jpg",
+              "__typename": "ProductImage"
+            },
+            "rz_manufacturer": null,
+            "name": "Bess Yoga Short",
+            "new": 0,
+            "price_range": {
+              "maximum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 28,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 28,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "minimum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 28,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 28,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "__typename": "PriceRange"
+            },
+            "price_tiers": [],
+            "sku": "WSH05",
+            "special_price": null,
+            "special_to_date": null,
+            "stock_status": "IN_STOCK",
+            "sale": 1,
+            "uid": "MzE1NQ==",
+            "id": 3155,
+            "url_key": "bess-yoga-short",
+            "url_suffix": ".html",
+            "video_file": null,
+            "rz_energy_label": null,
+            "rz_reimposed": null,
+            "rz_stock_shop_2": null,
+            "rz_stock_shop_3": null,
+            "rz_stock_shop_4_v2": null,
+            "rz_stock_shop_5": null,
+            "rz_stock_shop_6": null,
+            "weight": null,
+            "options": null,
+            "configurable_options": [
+              {
+                "attribute_code": "color",
+                "attribute_uid": "OTM=",
+                "id": 418,
+                "label": "Color",
+                "position": 1,
+                "uid": "Y29uZmlndXJhYmxlLzMxNTUvOTM=",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "Blue",
+                    "label": "Blue",
+                    "store_label": "Blue",
+                    "swatch_data": {
+                      "value": "#1857f7",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzExNQ==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "Purple",
+                    "label": "Purple",
+                    "store_label": "Purple",
+                    "swatch_data": {
+                      "value": "#ef3dff",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzEyMg==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "Yellow",
+                    "label": "Yellow",
+                    "store_label": "Yellow",
+                    "swatch_data": {
+                      "value": "#ffd500",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzEyNQ==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              },
+              {
+                "attribute_code": "size",
+                "attribute_uid": "MTUy",
+                "id": 417,
+                "label": "Size",
+                "position": 0,
+                "uid": "Y29uZmlndXJhYmxlLzMxNTUvMTUy",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "28",
+                    "label": "28",
+                    "store_label": "28",
+                    "swatch_data": {
+                      "value": "28",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzQ=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "29",
+                    "label": "29",
+                    "store_label": "29",
+                    "swatch_data": {
+                      "value": "29",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzU=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "30",
+                    "label": "30",
+                    "store_label": "30",
+                    "swatch_data": {
+                      "value": "30",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzY=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "31",
+                    "label": "31",
+                    "store_label": "31",
+                    "swatch_data": {
+                      "value": "31",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzc=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "32",
+                    "label": "32",
+                    "store_label": "32",
+                    "swatch_data": {
+                      "value": "32",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzg=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              }
+            ]
+          },
+          {
+            "__typename": "ConfigurableProduct",
+            "canonical_url": null,
+            "categories": [
+              {
+                "name": "Bottoms",
+                "uid": "NjA=",
+                "__typename": "CategoryTree"
+              },
+              {
+                "name": "Shorts",
+                "uid": "NjI=",
+                "__typename": "CategoryTree"
+              }
+            ],
+            "image": {
+              "disabled": null,
+              "label": "Artemis Running Short",
+              "position": null,
+              "url": "http://local-api.ht.is/media/catalog/product/cache/23030af8497075eef7cfb25e3ec3d078/w/s/wsh04-black_main_1.jpg",
+              "__typename": "ProductImage"
+            },
+            "rz_manufacturer": null,
+            "name": "Artemis Running Short",
+            "new": 0,
+            "price_range": {
+              "maximum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 45,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 45,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "minimum_price": {
+                "discount": {
+                  "amount_off": 0,
+                  "percent_off": 0,
+                  "__typename": "ProductDiscount"
+                },
+                "final_price": {
+                  "currency": "ISK",
+                  "value": 45,
+                  "__typename": "Money"
+                },
+                "fixed_product_taxes": [],
+                "regular_price": {
+                  "currency": "ISK",
+                  "value": 45,
+                  "__typename": "Money"
+                },
+                "__typename": "ProductPrice"
+              },
+              "__typename": "PriceRange"
+            },
+            "price_tiers": [],
+            "sku": "WSH04",
+            "special_price": null,
+            "special_to_date": null,
+            "stock_status": "IN_STOCK",
+            "sale": 0,
+            "uid": "MzEzOQ==",
+            "id": 3139,
+            "url_key": "artemis-running-short",
+            "url_suffix": ".html",
+            "video_file": null,
+            "rz_energy_label": null,
+            "rz_reimposed": null,
+            "rz_stock_shop_2": null,
+            "rz_stock_shop_3": null,
+            "rz_stock_shop_4_v2": null,
+            "rz_stock_shop_5": null,
+            "rz_stock_shop_6": null,
+            "weight": null,
+            "options": null,
+            "configurable_options": [
+              {
+                "attribute_code": "color",
+                "attribute_uid": "OTM=",
+                "id": 416,
+                "label": "Color",
+                "position": 1,
+                "uid": "Y29uZmlndXJhYmxlLzMxMzkvOTM=",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "Black",
+                    "label": "Black",
+                    "store_label": "Black",
+                    "swatch_data": {
+                      "value": "#000000",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzExNA==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "Green",
+                    "label": "Green",
+                    "store_label": "Green",
+                    "swatch_data": {
+                      "value": "#53a828",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzExOA==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "Orange",
+                    "label": "Orange",
+                    "store_label": "Orange",
+                    "swatch_data": {
+                      "value": "#eb6703",
+                      "__typename": "ColorSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzkzLzEyMQ==",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              },
+              {
+                "attribute_code": "size",
+                "attribute_uid": "MTUy",
+                "id": 415,
+                "label": "Size",
+                "position": 0,
+                "uid": "Y29uZmlndXJhYmxlLzMxMzkvMTUy",
+                "use_default": false,
+                "values": [
+                  {
+                    "default_label": "28",
+                    "label": "28",
+                    "store_label": "28",
+                    "swatch_data": {
+                      "value": "28",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzQ=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "29",
+                    "label": "29",
+                    "store_label": "29",
+                    "swatch_data": {
+                      "value": "29",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzU=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "30",
+                    "label": "30",
+                    "store_label": "30",
+                    "swatch_data": {
+                      "value": "30",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzY=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "31",
+                    "label": "31",
+                    "store_label": "31",
+                    "swatch_data": {
+                      "value": "31",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzc=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  },
+                  {
+                    "default_label": "32",
+                    "label": "32",
+                    "store_label": "32",
+                    "swatch_data": {
+                      "value": "32",
+                      "__typename": "TextSwatchData"
+                    },
+                    "uid": "Y29uZmlndXJhYmxlLzE1Mi8yMzg=",
+                    "use_default_value": true,
+                    "__typename": "ConfigurableProductOptionsValues"
+                  }
+                ],
+                "__typename": "ConfigurableProductOptions"
+              }
+            ]
+          }
+        ],
+        "__typename": "Products"
+      }
+    },
+    "loading": false,
+    "networkStatus": 7
+  }

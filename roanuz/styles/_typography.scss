@@ -1,0 +1,10 @@
+:root {
+  --tg-family: 'Red Hat Display', sans-serif;
+  --tg-bold-family: var(--tg-family);
+  --tg-title-family: var(--tg-family);
+
+  --tg-title-1-family: var(--tg-family);
+  --tg-title-1-style: bold;
+  --tg-title-1-size: #{asRem(60)};
+  --tg-title-1-lh: #{asRem(68)};
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /customer/
+Disallow: /cart
+Disallow: /dev
+Allow: /

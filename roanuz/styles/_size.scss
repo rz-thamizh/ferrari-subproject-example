@@ -1,0 +1,49 @@
+:root{
+  --space-title1: #{asRem(20)};
+  --space-page-max-width: #{asRem(1310)};
+  --space-page-side-padding: #{asRem(15)};
+
+  --size-sticky-nav-height: #{asRem(100)};
+
+  --size-brand-nav-height: #{asRem(50)};
+  --size-brand-nav-padding: #{asRem(10)};
+
+  --size-product-card-16-width: #{asRem(155)};
+  --size-product-card-16-image-height: #{asRem(126)};
+  --size-product-card-16-heading-height: #{asRem(66)};
+  --size-product-card-16-shortdesc-height: #{asRem(92)};
+  --size-product-card-16-offer-height: #{asRem(20)};
+
+  --size-product-card-13-width: #{asRem(300)};
+  --size-product-card-13-image-height: #{asRem(210)};
+  --size-product-card-13-heading-height: #{asRem(78)};
+  --size-product-card-13-offer-height: #{asRem(20)};
+
+  --size-product-card-12-width: #{asRem(270)};
+  --size-product-card-12-image-height: #{asRem(190)};
+
+  --size-product-card-preview-image-width: #{asRem(90)};
+  --size-product-card-preview-image-height: #{asRem(90)};
+
+  --product-grid-padding-bottom: #{asRem(40)};
+  
+  @media screen and (min-width: $breakpoint-sm) {
+    --size-product-card-16-width: #{asRem(220)};
+    --size-product-card-16-image-height: #{asRem(180)};
+    --size-product-card-13-image-height: #{asRem(260)};
+  }
+  
+  @media screen and (min-width: $breakpoint-lg) {
+    --space-page-max-width: #{asRem(1320)};
+    --space-page-side-padding: #{asRem(20)};
+    --size-product-card-13-width: #{asRem(300)};
+    --size-product-card-12-width: #{asRem(500)};
+  }
+  
+  @media screen and (min-width: $breakpoint-xlg) {
+    --space-page-max-width: #{asRem(1440)};
+    --space-page-side-padding: #{asRem(80)};
+    --size-product-card-13-width: #{asRem(400)};
+    --size-product-card-12-width: #{asRem(600)};
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "data": {
+    "rzSiminnLoanOptions": {
+      "recommended": {
+        "averagePaymentAmount": 11546,
+        "disbursementAmount": 169995,
+        "disbursementFeeAmount": 5950,
+        "disbursementFeePercentage": 0.035,
+        "interestRate": 0.123,
+        "loanLengthInMonths": 18,
+        "paymentFeePerPayment": 755,
+        "totalFeeAmount": 13590,
+        "totalInterestAmount": 18289,
+        "totalPrincipalAmount": 175945,
+        "totalRepayment": 207823,
+        "yearlyCostRatio": 0.286
+      },
+      "options": [
+        {
+          "interestRate": 0.123,
+          "disbursementAmount": 169995,
+          "disbursementFeePercentage": 0.024316534293417,
+          "disbursementFeeAmount": 4134,
+          "yearlyCostRatio": 0.3575,
+          "totalPrincipalAmount": 174129,
+          "totalInterestAmount": 4236,
+          "totalFeeAmount": 2265,
+          "totalRepayment": 180630,
+          "paymentFeePerPayment": 755,
+          "averagePaymentAmount": 60210,
+          "loanLengthInMonths": 3
+        },
+        {
+          "interestRate": 0.123,
+          "disbursementAmount": 169995,
+          "disbursementFeePercentage": 0.035,
+          "disbursementFeeAmount": 5950,
+          "yearlyCostRatio": 0.3575,
+          "totalPrincipalAmount": 175945,
+          "totalInterestAmount": 7027,
+          "totalFeeAmount": 4530,
+          "totalRepayment": 187502,
+          "paymentFeePerPayment": 755,
+          "averagePaymentAmount": 31250,
+          "loanLengthInMonths": 6
+        },
+        {
+          "interestRate": 0.123,
+          "disbursementAmount": 169995,
+          "disbursementFeePercentage": 0.035,
+          "disbursementFeeAmount": 5950,
+          "yearlyCostRatio": 0.3072,
+          "totalPrincipalAmount": 175945,
+          "totalInterestAmount": 12603,
+          "totalFeeAmount": 9060,
+          "totalRepayment": 197608,
+          "paymentFeePerPayment": 755,
+          "averagePaymentAmount": 16467,
+          "loanLengthInMonths": 12
+        },
+        {
+          "interestRate": 0.123,
+          "disbursementAmount": 169995,
+          "disbursementFeePercentage": 0.035,
+          "disbursementFeeAmount": 5950,
+          "yearlyCostRatio": 0.286,
+          "totalPrincipalAmount": 175945,
+          "totalInterestAmount": 18289,
+          "totalFeeAmount": 13590,
+          "totalRepayment": 207823,
+          "paymentFeePerPayment": 755,
+          "averagePaymentAmount": 11546,
+          "loanLengthInMonths": 18
+        },
+        {
+          "interestRate": 0.123,
+          "disbursementAmount": 169995,
+          "disbursementFeePercentage": 0.035,
+          "disbursementFeeAmount": 5950,
+          "yearlyCostRatio": 0.2736,
+          "totalPrincipalAmount": 175945,
+          "totalInterestAmount": 24085,
+          "totalFeeAmount": 18120,
+          "totalRepayment": 218149,
+          "paymentFeePerPayment": 755,
+          "averagePaymentAmount": 9090,
+          "loanLengthInMonths": 24
+        },
+        {
+          "interestRate": 0.123,
+          "disbursementAmount": 169995,
+          "disbursementFeePercentage": 0.035,
+          "disbursementFeeAmount": 5950,
+          "yearlyCostRatio": 0.2585,
+          "totalPrincipalAmount": 175945,
+          "totalInterestAmount": 36005,
+          "totalFeeAmount": 27180,
+          "totalRepayment": 239130,
+          "paymentFeePerPayment": 755,
+          "averagePaymentAmount": 6642,
+          "loanLengthInMonths": 36
+        }
+      ]
+    }
+  }
+}
