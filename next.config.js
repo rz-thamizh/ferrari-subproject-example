@@ -12,7 +12,7 @@ module.exports = {
     const originalExcludeMethod = rule.exclude;
     config.module.rules[0].exclude = (moduleName, ...otherArgs) => {
       // we want to explicitly allow our plugin
-      if (moduleName.indexOf("node_modules/next-subproject-ferrari") >= 0) {
+      if (moduleName.indexOf("node_modules/ferrari-subproject-example") >= 0) {
         return false;
       }
 
