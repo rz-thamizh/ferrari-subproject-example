@@ -8,6 +8,18 @@ module.exports = {
     // Perform customizations to webpack config
     // config.plugins.push(new webpack.IgnorePlugin(/\/__tests__\//))
 
+    const rule = config.module.rules[0];
+    const originalExcludeMethod = rule.exclude;
+    config.module.rules[0].exclude = (moduleName, ...otherArgs) => {
+      // we want to explicitly allow our plugin
+      if (moduleName.indexOf("node_modules/next-subproject-ferrari") >= 0) {
+        return false;
+      }
+
+      // otherwise, use the original rule
+      return originalExcludeMethod(moduleName, ...otherArgs);
+    };
+
     const websiteKey = process.env.NEXT_PUBLIC_RZ_WEBSITE_KEY || 'rz';
     console.log('Building for Website', websiteKey);
 
@@ -97,18 +109,6 @@ module.exports = {
         },
       ),
     );
-
-    const rule = config.module.rules[0];
-    const originalExcludeMethod = rule.exclude;
-    config.module.rules[0].exclude = (moduleName, ...otherArgs) => {
-      // we want to explicitly allow our plugin
-      if (moduleName.indexOf("node_modules/next-subproject-ferrari") >= 0) {
-        return false;
-      }
-
-      // otherwise, use the original rule
-      return originalExcludeMethod(moduleName, ...otherArgs);
-    };
 
     return config;
   },
