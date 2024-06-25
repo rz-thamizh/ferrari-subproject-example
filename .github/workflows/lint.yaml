@@ -5,6 +5,7 @@ on: [pull_request]
 
 jobs:
   python_lint:
+    environment: dev
 
     runs-on: ubuntu-latest
 
